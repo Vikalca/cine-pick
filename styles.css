@@ -1,0 +1,81 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Cinecav', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00aaff;
+    text-shadow: 0 0 8px #00aaff, 0 0 20px #0077cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  
+  h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  select, button {
+    margin: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  select {
+    width: 80%;
+  }
+  
+  button {
+    background-color: #fe2c55;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d11d41;
+  }
+  
+  #movieInfo {
+    margin-top: 2rem;
+  }
+  
+  #moviePoster img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  #movieText {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  #movieText h1 {
+    font-size: 1.5rem;
+  }
+  
+  #movieText p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  

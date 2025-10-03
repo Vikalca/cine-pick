@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CinePick – Random movie</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinecav&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">CinePick</h1>
+    
+    <select id="genres">
+      <option selected disabled>Choose a genre...</option>
+    </select>
+    
+    <button id="playBtn">Show movie</button>
+
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieText"></div>
+    </div>
+  </div>
+
+  <script src="helper.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
